@@ -1,0 +1,61 @@
+Data.List: 
+  length -> return the list of the length
+  nub -> get unique from list
+  nubBy -> get unique from list but with a predicate
+  sort -> sorts a list
+  sortBy -> sorts by a given function
+  intersperse -> puts a given element between all elements
+  intercalate -> puts a list between all elements
+  transpose -> transposes a list of list like a matrix
+  sum -> sums all elements in a list
+  foldr -> folds the list applying a function from the right
+  foldl -> folds the list applying a function from the left
+  foldr' -> folds the list applying a function from the right strictly
+  foldl' -> folds the list applying a function from the left strictly
+  concat -> flattens a list of lists into a single list
+  concatMap -> apply a function to all elements and concat the result
+  and -> ands the whole list
+  or -> ors the whole list
+  any -> checks if any elements passes a predicate
+  all -> checks if all elements passes a predicate
+  iterate -> applies a function to a starting value, then to the result ...
+  splitAt -> splits a list at a given place
+  takeWhile -> takes elements from a list until a given predicate fails
+  dropWhile -> drops elements from a list until a given predicate fails
+  span -> same as takeWhile but returns tuple from the two lists
+  break -> same as span but breaks when the predicate is true
+  group -> groups adjacent equal elements in a list
+  groupBy -> groups adjacent equal elements in a list but with a predicate
+  init -> takes all elements from a list but the last
+  tail -> takes all elements from a list but the first
+  head -> takes the first element from a list
+  last -> takes the last element from a list
+  inits -> returns a list of increasing size lists starting from the beginning of one
+  tails -> returns a list of decreasing size lists starting from the whole
+  isInfixOf -> checks if a list contains another list
+  isPrefixOf/isSuffixOf -> is a list starting or ending with another list
+  elem -> contains
+  notElem -> notContains
+  partition -> returns all elements that satisfy a predicate and all that don't
+  find -> returns the first element satisfaing a predicate
+  elemIndex -> returns an index of an element
+  elemIndices -> returns all indices of an element
+  findIndex -> returns an index of an element matching a predicate
+  findIndices -> returns all indices of an element matching a predicate
+  zip* -> zips 2(default) or more lists into tupled list
+  zipWith* -> same as zip but with predicate
+  lines -> makes a list from a string split on new lines
+  unlines -> reverse lines
+  words -> splits a string on words
+  unwords -> makes a sentence
+  delete -> deletes first occurance of an element
+  deleteBy -> deletes first occurance of an element but with a predicate
+  \\ -> deletes all elements in first list that are in the second
+  union -> joins two lists while removing duplicates
+  unionBy -> joins two lists while removing duplicates but with a predicate
+  intersect -> set intersection [1,2,3] `intersect` [2,3] == [2,3]
+  intersectBy -> set intersection [1,2,3] `intersect` [2,3] == [2,3] but with a predicate
+  insert -> inserts an element at the first position where it's lower than the next one
+  minimum -> returns the minimum element
+  maximum -> returns the maximum element
+
